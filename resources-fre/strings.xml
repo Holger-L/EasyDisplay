@@ -1,0 +1,41 @@
+<resources>
+    <!-- application name referenced in manifest.xml -->
+    <string id="AppName">EasyDisplayClockk</string>
+    <!-- week day names -->
+    <string id="Mo">lun</string>
+    <string id="Tu">mar</string>
+    <string id="We">mer</string>
+    <string id="Th">jeu</string>
+    <string id="Fr">ven</string>
+    <string id="Sa">sam</string>
+    <string id="Su">dim</string>
+    
+    <!-- menu title and labels -->
+      <!-- main menu -->
+    <string id="sEDMTitle">Paramètres</string>
+    <string id="sDateFormTitle">Form. de date</string>
+    <string id="sDateSepTitle">Séparat. de date</string>
+    <string id="sDateDayTitle">Noms du jour</string>
+    <string id="sInfoTypeTitle">Type de capteur</string>
+
+        <!-- sub menu date form -->
+    <string id="DateFormatTitle">Choisir form. de date</string>
+    <string id="dateDDMMYYYY">1. Jour</string>
+    <string id="dateMMDDYYYY">1. Mois</string>
+    <string id="dateYYYYMMDD">1. Année</string>
+
+        <!-- sub menu date separator -->
+    <string id="DateSepTitle">Choisir sép. de date</string>
+    <string id="dateNone">sans séparateur</string>
+    <string id="dateDot">.</string>
+    <string id="dateSlash">/</string>
+    <string id="dateHyp">-</string>
+
+        <!-- sub menu sensor type -->
+    <string id="typeCalories">Calories</string>
+    <string id="typeStress">Val. de stresser</string>
+    <string id="typeBlood">Oxygène pulsé</string>
+    <string id="typeActivity">Activité (min)</string>
+    <string id="typeBodyBat">Corps batterie</string>
+
+</resources>

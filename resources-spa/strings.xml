@@ -1,0 +1,41 @@
+<resources>
+    <!-- application name referenced in manifest.xml -->
+    <string id="AppName">BigDataClock</string>
+    <!-- week day names -->
+    <string id="Mo">lun</string>
+    <string id="Tu">mar</string>
+    <string id="We">mié</string>
+    <string id="Th">jue</string>
+    <string id="Fr">vie</string>
+    <string id="Sa">sab</string>
+    <string id="Su">dom</string>
+    
+    <!-- menu title and labels -->
+      <!-- main menu -->
+    <string id="sEDMTitle">Configuraciones</string>
+    <string id="sDateFormTitle">Form. de fecha</string>
+    <string id="sDateSepTitle">Separador de fecha</string>
+    <string id="sDateDayTitle">Nombre del dia</string>
+    <string id="sInfoTypeTitle">Tipo de sensor</string>
+
+        <!-- sub menu date form -->
+    <string id="DateFormatTitle">Elegir form. de fecha</string>
+    <string id="dateDDMMYYYY">1. Dia</string>
+    <string id="dateMMDDYYYY">1. Mes</string>
+    <string id="dateYYYYMMDD">1. Año</string>
+
+        <!-- sub menu date separator -->
+    <string id="DateSepTitle">Elegir sep. de fecha</string>
+    <string id="dateNone">sin separador</string>
+    <string id="dateDot">.</string>
+    <string id="dateSlash">/</string>
+    <string id="dateHyp">-</string>
+
+        <!-- sub menu sensor type -->
+    <string id="typeCalories">Calorías</string>
+    <string id="typeStress">Val. del estrés</string>
+    <string id="typeBlood">Pulso de oxígeno</string>
+    <string id="typeActivity">Actividad (min)</string>
+    <string id="typeBodyBat">Batería cuerpo</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <!-- application name referenced in manifest.xml -->
+    <string id="AppName">EasyDisplayClock</string>
+    <!-- week day names -->
+    <string id="Mo">月</string>
+    <string id="Tu">火</string>
+    <string id="We">水</string>
+    <string id="Th">木</string>
+    <string id="Fr">金</string>
+    <string id="Sa">土</string>
+    <string id="Su">日</string>
+    
+    <!-- menu title and labels -->
+      <!-- main menu -->
+    <string id="sEDMTitle">設定</string>
+    <string id="sDateFormTitle">日付形式</string>
+    <string id="sDateSepTitle">日付区切り文字</string>
+    <string id="sDateDayTitle">曜日名</string>
+    <string id="sInfoTypeTitle">センサーの種類</string>
+    
+        <!-- sub menu date form -->
+    <string id="DateFormatTitle">---</string>
+    <string id="dateDDMMYYYY">初日</string>
+    <string id="dateMMDDYYYY">初の月</string>
+    <string id="dateYYYYMMDD">初年目</string>
+
+        <!-- sub menu date separator -->
+    <string id="DateSepTitle">---</string>
+    <string id="dateNone">セパレータなし</string>
+    <string id="dateDot">.</string>
+    <string id="dateSlash">/</string>
+    <string id="dateHyp">-</string>
+
+        <!-- sub menu sensor type -->
+    <string id="typeCalories">カロリー</string>
+    <string id="typeStress">ストレスの価値</string>
+    <string id="typeBlood">パルス酸素</string>
+    <string id="typeActivity">アクティビティ</string>
+    <string id="typeBodyBat">本体バッテリー</string>
+
+</resources>

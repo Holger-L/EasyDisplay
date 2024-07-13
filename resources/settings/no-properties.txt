@@ -1,0 +1,7 @@
+<!--
+<properties>
+    <property id="DateFormat" type="number">1</property>
+    <property id="DateSep" type="number">2</property>
+    <property id="DateDay" type="boolean">true</property>
+</properties>
+-->

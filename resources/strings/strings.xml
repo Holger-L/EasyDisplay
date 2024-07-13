@@ -1,0 +1,41 @@
+<strings>
+    <!-- application name referenced in manifest.xml -->
+    <string id="AppName">EasyDisplayClock</string>
+    
+    <!-- week day names -->
+    <string id="Mo">Mon</string>
+    <string id="Tu">Tue</string>
+    <string id="We">Wed</string>
+    <string id="Th">Thu</string>
+    <string id="Fr">Fri</string>
+    <string id="Sa">Sat</string>
+    <string id="Su">Sun</string>
+
+    <!-- menu title and labels -->
+      <!-- main menu -->
+    <string id="sEDMTitle">Settings</string>
+    <string id="sDateFormTitle">Date Format</string>
+    <string id="sDateSepTitle">Date Separator</string>
+    <string id="sInfoTypeTitle">Sensor Type</string>
+    <string id="sDateDayTitle">Day Name</string>
+
+        <!-- sub menu date form -->
+    <string id="DateFormatTitle">Choose date format</string>
+    <string id="dateDDMMYYYY">1. Day</string>
+    <string id="dateMMDDYYYY">1. Month</string>
+    <string id="dateYYYYMMDD">1. Year</string>
+
+        <!-- sub menu date separator -->
+    <string id="DateSepTitle">Choose date separator</string>
+    <string id="dateNone">No separator</string>
+    <string id="dateDot">.</string>
+    <string id="dateSlash">/</string>
+    <string id="dateHyp">-</string>
+
+        <!-- sub menu sensor type -->
+    <string id="typeCalories">Calories</string>
+    <string id="typeStress">Stress Score</string>
+    <string id="typeBlood">Pulse Oxi</string>
+    <string id="typeActivity">Activity (min)</string>
+    <string id="typeBodyBat">Body Battery</string>
+</strings>
