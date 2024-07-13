@@ -50,6 +50,35 @@ In order to minimize the number of classes and number of code lines I decided to
 * EasyDisplaySettingsMenu (EasyDisplaySettings.mc): App menu functions
 * EasyDisplaySettingsDelegate (EasyDisplaySettings.mc): Menu functions
 
+An overview of the used classes and dependencies can be seen in the UML class diagramm below.
+
+### Testing and export to Garmin Connect IQ store
+
+In order to publish a watch face I find these three steps useful.
+
+1. Most important is the watch face simulator.
+      * With Ctrl+F5 or F5 (for debugging) you will open the simulator
+      * The most useful helper in the simulator are:
+      * Check "always on" conformity: File -> view Screen Heat Map
+      * Check performance: File -> View Profiler
+      * Check memory: File -> View Memory
+      * Simulate steps and distance: Simulation -> Activity Monitoring
+      * Simulate heart beat: ActivityData
+      * Everything else can be set in: Settings
+2. Run on your device directly.
+      * Compile Ctrl+Shift+P, select "Monkey C: Build for Device, select a folder where the prg file will be places (should be empty).
+      * The prg file is created together with helper files
+      * Connect your device with the usb cable directly to your computer
+      * The device is added as a storage device to your file explorer
+      * On this storage device go to This storage go to "GARMIN\APPS"
+      * copy your compiled .prg file to GARMIN\APPS and disconnect the usb cable
+      * now your device tries to load the app/watch face directly
+3. Publish your device to Garmin Connect IQ Store
+      * Create some sample images for your watch. At least you need the main store image showing the clock. It must be 500x500 pixel in size. See garmin_exp_images for more examples or see image below.
+      * Think about a headline (only 50 charaters in length) and about a description (4000 characters). Think about the mail address you want to publish to the store.
+      * Before you export the project check for newest SDK and check the manifest.xml. All supported devices should be included.
+      * Now export the project for the store: Use Ctrl+Shift+P and select "Monkey C: Export Project". Select an empty directory.
+      * Finally log into the store and publish (or update) your watch face.
 
 ### Watch Face
 ![wf1](/garmin_exp_images/wf500x500_v2.jpg)
